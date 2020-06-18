@@ -4,6 +4,9 @@ import Head from 'next/head'
 function AboutPage() {
   return (
     <div className="container">
+      <Head>
+        <title>About</title>
+      </Head>
       <h1>About</h1>
       <style jsx>{`
         .container {
