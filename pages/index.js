@@ -1,14 +1,15 @@
 import Layout from '../components/layout'
 import Hero from '../components/jumbotron'
-import Head from 'next/head'
-
+import Editor from '../components/editor'
+import List from '../components/list'
 
 function HomePage() {
   return (
-      <Layout>
+    <Layout>
       <Hero></Hero>
-        <p>Arda</p>
-      </Layout>
+      <Editor></Editor>
+      <List></List>
+    </Layout>
   )
 }
 

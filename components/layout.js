@@ -32,9 +32,7 @@ function Layout({ children }) {
       <Nav></Nav>
       <div className="container">
         <main>{children}</main>
-        <footer>
-          <p>footer</p>
-        </footer>
+        <footer></footer>
       </div>
     </div>
   )
