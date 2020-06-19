@@ -1,13 +1,14 @@
 import Layout from '../components/layout'
+import Hero from '../components/jumbotron'
 import Head from 'next/head'
+
 
 function HomePage() {
   return (
-    <div className="container">
       <Layout>
+      <Hero></Hero>
         <p>Arda</p>
       </Layout>
-    </div>
   )
 }
 

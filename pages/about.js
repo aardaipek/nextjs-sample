@@ -8,11 +8,7 @@ function AboutPage() {
         <title>About</title>
       </Head>
       <h1>About</h1>
-      <style jsx>{`
-        .container {
-          margin: 50px;
-        }
-      `}</style>
+      <button type="button" className="btn btn-primary">Primary</button>
     </div>
   )
 }
